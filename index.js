@@ -5,7 +5,7 @@ const app = express();
 const db = require("./queries");
 const { request, response } = require('express');
 const { getAllusers } = require('./queries');
-const port = 5000;
+const port = 3030;
 
 app.use(cors());
 app.use(bodyParser.json());
